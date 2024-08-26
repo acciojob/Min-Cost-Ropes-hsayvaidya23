@@ -10,6 +10,10 @@ function mincost(arr)
 
 		const combine = firstRope + secondRope;
 		totalCost += combine;
+
+		 arr.push(combinedRope);
+
+		arr.sort((a, b) => a - b);
 	}
 	
 // return the min cost
