@@ -11,7 +11,7 @@ function mincost(arr)
 		const combine = firstRope + secondRope;
 		totalCost += combine;
 
-		 arr.push(combinedRope);
+		 arr.push(combine);
 
 		arr.sort((a, b) => a - b);
 	}
